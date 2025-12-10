@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Food & Happy Soul</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Main Welcome Screen -->
+  <div class="container" id="mainContainer">
+    <div class="logo">
+      <img src="restaurant-logo-design-vector.jpg" alt="Restaurant Logo" width="200" />
+    </div>
+    <h1 class="title">Welcome to Happy Food & Happy Soul</h1>
+    <button onclick="showShiftOptions()" class="start-btn">Start Ordering</button>
+  </div>
+
+  <!-- Meal Shift Selection -->
+  <div class="shift-container hidden section" id="shiftContainer">
+    <h2>Select Your Meal Shift</h2>
+    <form id="shiftForm">
+      <label><input type="checkbox" name="shift" value="breakfast" /> Breakfast</label>
+      <label><input type="checkbox" name="shift" value="lunch" /> Lunch</label>
+      <label><input type="checkbox" name="shift" value="snacks" /> Snacks</label>
+      <label><input type="checkbox" name="shift" value="dinner" /> Dinner</label>
+      <button type="button" class="btn" onclick="startQuiz()">Continue</button>
+    </form>
+  </div>
+
+  <!-- Menu Display -->
+  <div class="menu-container hidden section" id="menuContainer">
+    <h2>Our Menu</h2>
+    <div class="menu-grid" id="menuGrid"></div>
+    <div class="summary">
+      <p>Total Calories: <span id="totalCalories">0</span> kcal</p>
+      <p>Total Price: ₹<span id="totalPrice">0</span></p>
+      <button onclick="checkout()" class="btn">Proceed to Quiz</button>
+    </div>
+  </div>
+
+  <!-- Quiz Section -->
+  <div class="quiz-container hidden section" id="quizContainer">
+    <h2>Answer these to win a discount!</h2>
+    <form id="quizForm"></form>
+    <button onclick="calculateDiscount()" class="btn">Submit Answers</button>
+  </div>
+
+  <!-- Result Display -->
+  <div class="result-container hidden section" id="resultContainer">
+    <h2>Thank You for Ordering!</h2>
+    <p id="discountMsg"></p>
+    <p>Your Final Bill after Discount: ₹<span id="finalBill">0</span></p>
+
+    <!-- ✅ User Details + Payment + Submit -->
+    <div class="user-details">
+      <h3>Enter Your Details:</h3>
+      <input type="text" id="userName" placeholder="Enter your name" required />
+      <input type="tel" id="userPhone" placeholder="Enter phone number" required />
+
+      <h3>Select Payment Method:</h3>
+      <label><input type="radio" name="payment" value="Cash" checked /> Cash</label>
+      <label><input type="radio" name="payment" value="Online" /> Online</label>
+
+      <button onclick="placeOrder()" class="btn">Place Order</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
