@@ -1,72 +1,83 @@
-🍽️ Happy Food & Happy Soul - Restaurant Ordering System
-
-A dynamic restaurant ordering web application where users can:
-
-Select meal timings (Breakfast, Lunch, Snacks, Dinner)
-
-View menu items with price & calories
-
-Add items to cart
-
-Receive a quiz for discounts
-
-Get a final bill after discount
-
-Enter personal details and payment method 
-
-🚀 Live Demo 
-https://restaurantsoul.netlify.app/
+# 🍽️ Happy Food & Happy Soul  
+### An Interactive Restaurant Ordering Experience
 
 
-🧾 Features
-🕐 Meal Shift Selection
+---
+![restaurant-logo-design-vector](https://github.com/user-attachments/assets/995c6482-dfbc-4b5f-8c0a-f5f4def4749b)
 
-Users can choose multiple shifts:
+## 🚀 Live Demo  
+🔗 **https://restaurantsoul.netlify.app/**
 
-Breakfast
+---
 
-Lunch
+## ✨ Overview  
+A fun and engaging web application that allows users to order food, take a quiz for discounts, and get a final billing summary — all with a smooth and interactive UI.
 
-Snacks
+---
 
-Dinner
+## 🧾 Features  
 
-🧆 Menu Display
+### 🕐 Meal Shift Selection  
+Users can choose any two or more:
+- 🍳 Breakfast  
+- 🍛 Lunch  
+- 🍔 Snacks  
+- 🍽️ Dinner  
 
-Shows food items with images, calories, prices
+---
 
-“Add to Cart” functionality
+### 🧆 Menu Display  
+- Food items with **images, calories & prices**
+- One-click **Add to Cart**
+- Automatic **summary updates**
 
-📊 Cart Summary
+---
 
-Total calories
+### 📊 Cart Summary  
+- 🧮 Total Calories  
+- 💰 Total Cost  
 
-Total price
+---
 
-🧠 Quiz Section
+### 🧠 Quiz & Discounts  
+- Fun health-related quiz  
+- Score → Discount  
+  - 🏅 4-5 → **50% off**  
+  - 🎉 3 → **30% off**  
+  - 👍 2 → **10% off**  
 
-A fun quiz where:
+---
 
-Score → Discount %
+### 💵 Final Billing  
+- Final price after applying discount  
+- Clean and readable bill summary
 
-50%, 30%, 10% discount
+---
 
-💰 Final Bill
+### 🧑 User Details + Payment  
+Users provide:
+- 📝 Name  
+- 📞 Phone number  
+- 💳 Payment method  
+  - Cash  
+  - Online  
 
-Final discounted bill is shown.
+---
 
-🧑 User Details + Payment
+## 🛠️ Technologies Used  
+- 🧱 HTML  
+- 🎨 CSS  
+- ⚙️ JavaScript  
 
-User enters:
+---
 
-Name
+---
 
-Phone number
+## 👨‍💻 Author  
+**Jashu**  
+📩 Feel free to contribute, fork, or suggest improvements ❤  
 
-Payment mode (Cash / Online)
+---
 
+⭐ *If you like this project, don't forget to give it a star on GitHub!* ⭐
 
-🙌 Author
-
-Jashu
-Feel free to contribute or suggest improvements 👍
